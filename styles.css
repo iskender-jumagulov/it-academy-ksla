@@ -1,0 +1,62 @@
+.map{
+    display: flex;
+    justify-content: flex-end;
+     ;
+}iframe{
+    border: 1px black dashed   
+}
+
+.main {
+    justify-content: space-around;
+    align-self: start;
+   align-items: center;
+}
+
+
+.contact{
+    background-color: white;
+    display: flex;
+    justify-content: left;
+    margin-top: 20px;
+    position: relative;
+    
+    
+}
+.fab-fa-facebook{
+    color: red;
+}
+i{
+    align-items: center;
+    
+    width: 195px;
+    height: 200px;
+    font-size: 80px;
+    padding: 19px;
+    
+    color: black;
+    -webkit-box-shadow: 0px 10px 13px -7px #000000, 12px -2px 15px 3px rgba(0,0,0,0), 12px -2px 15px 3px rgba(0,0,0,0), 12px -2px 15px 3px rgba(0,0,0,0); 
+     box-shadow: 0px 10px 13px -7px #000000, 12px -2px 15px 3px rgba(0,0,0,0), 12px -2px 15px 3px rgba(0,0,0,0), 12px -2px 15px 3px rgba(0,0,0,0);
+}
+i:hover{
+    margin: 10px;
+    color: white;
+    background-color: black;
+}
+h2{
+    display: flex;
+    margin: auto;
+    
+    justify-content: center;
+    
+    
+}
+@media (max-width: 1000px){
+.contact{
+        display: flex;
+        justify-content: space-around;  
+       margin: 0;
+        align-items: center;
+       
+        flex-direction: column;
+    }
+}
